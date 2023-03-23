@@ -8,5 +8,6 @@ const changeArray = (originalArray, updatedArray) => {
   return [newElements, removedElements];
 };
 
+
 //testing
 console.log(changeArray([1, 2, 3, 4, 5], [1, 2, 3, 6]));
